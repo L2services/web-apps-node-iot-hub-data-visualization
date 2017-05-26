@@ -1,5 +1,8 @@
+# About
+This repo is based on the Azure `web-apps-node-iot-hub-data-visualization` repo and has been modified to display temperature and orientation data from a NodeMCU across multiple plots (rather than the original temperature/humidity data in a single plot)
+
 # web-apps-node-iot-hub-data-visualization
-This repo contains code for a web application, which can read temperature & humidity data from IoT hub and show the real-time data in a line chart on the web page.
+This repo contains code for a web application, which can read temperature & orientation data from IoT hub and show the real-time data in a line chart on the web page.
 
 ## Browser compatible
 | Browser | Least Version |
