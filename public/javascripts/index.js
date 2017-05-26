@@ -206,10 +206,18 @@ $(document).ready(function () {
       //humidityData.push(obj.humidity);
 
       // only keep no more than 50 points in the line chart
+      const maxLen = 50;
       var len = timeData.length;
-      if (len > 50) {
+      if (len > maxLen) {
         timeData.shift();
         temperatureData.shift();
+        axData.shift();
+        ayData.shift();
+        azData.shift();
+        //orientation?
+        xData.shift();
+        yData.shift();
+        zData.shift();
         //humidityData.shift();
       }
       //myAccelerationLineChart.update();
